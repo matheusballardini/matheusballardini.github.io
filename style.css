@@ -1,0 +1,92 @@
+
+body{
+    background: #3A2D32;
+}
+
+
+.textocentral {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    background-color: #e03d94;
+    background-size: auto;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+    border-radius: 30px;
+    padding: 8px;
+    border: 0%;
+    
+}
+
+.textoabaixo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em rgb(0, 0, 0);
+}
+
+.API {
+    text-align: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+
+#fetch-button {
+    background-color: #e03d94; /* Rosa */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#fetch-button:hover {
+    background-color: #ff1493; /* Rosa mais escuro ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento no tamanho */
+}
+
+#fetch-button:active {
+    background-color: #ff007f; /* Rosa ainda mais escuro ao clicar */
+    transform: scale(0.95); /* Leve redução ao clicar */
+}
+
+
+.textoAPIa {
+    position: absolute;
+    top: 0%;
+}
+
+.imagem1 {
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+#image-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */    
+}
+
+img {
+    width: 30%; /* Ajusta a largura ao container pai */
+    max-width: 500px; /* Define a largura máxima para manter qualidade */
+    height: auto; /* Mantém a proporção original */
+    box-shadow: 2px 2px 20px rgb(224, 2, 150);
+    margin: 20px;
+    border-radius: 3%;
+}
+
+
+.nome{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em rgb(0, 0, 0);
+}
